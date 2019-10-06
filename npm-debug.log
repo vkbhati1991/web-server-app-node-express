@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Anuja Gupta\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v8.15.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle web-server@1.0.0~prestart: web-server@1.0.0
+6 silly lifecycle web-server@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle web-server@1.0.0~start: web-server@1.0.0
+8 verbose lifecycle web-server@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle web-server@1.0.0~start: PATH: C:\Users\Anuja Gupta\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;D:\nodejs\complete node js\web-server\node_modules\.bin;C:\Program Files\MongoDB\Server\4.0\bin;D:\app\client\AnujaGupta\product\12.1.0\client_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Anuja Gupta\AppData\Local\Microsoft\WindowsApps;C:\Users\Anuja Gupta\.dotnet\tools;C:\Users\Anuja Gupta\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\4.0\bin;
+10 verbose lifecycle web-server@1.0.0~start: CWD: D:\nodejs\complete node js\web-server
+11 silly lifecycle web-server@1.0.0~start: Args: [ '/d /s /c', 'nodemon src/app.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at process.kill (internal/process.js:172:20)
+12 verbose stack     at process.listener (C:\Users\Anuja Gupta\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitOne (events.js:121:20)
+12 verbose stack     at process.emit (events.js:211:7)
+12 verbose stack     at processEmit (C:\Users\Anuja Gupta\AppData\Roaming\npm\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Users\Anuja Gupta\AppData\Roaming\npm\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:197:44)
+13 verbose cwd D:\nodejs\complete node js\web-server
+14 error Windows_NT 10.0.17134
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Anuja Gupta\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v8.15.0
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
